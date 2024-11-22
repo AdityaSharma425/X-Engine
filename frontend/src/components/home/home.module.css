@@ -351,6 +351,10 @@
   .gym-amenities-first p:last-of-type {
     width: 100%;
   }
+
+  .gym-amenities-first video{
+    width: 100%;
+  }
 }
 
 /* Section nine */
