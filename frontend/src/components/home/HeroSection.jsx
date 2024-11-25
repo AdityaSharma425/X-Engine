@@ -13,8 +13,8 @@ const HeroSection = () => {
         with X-Engine
       </h1>
       <div>
-        <button onClick={() => navigate("/schedule")}>Start Today</button>
-        <button>About Me</button>
+        <button>Start Today</button>
+        <button onClick={() => navigate("/about")}>About Me</button>
       </div>
     </div>
   );

@@ -73,8 +73,8 @@ const ContactForm = () => {
 
   return (
     <div className={`${styles["contact-form"]}  container sections-padding`}>
-      <div data-aos="fade-down">
-        <p className="paragraph">Welcome To strengthy</p>
+      <div>
+        <p className="paragraph">Welcome To X-Engine</p>
         <h2>Get In Touch With Us</h2>
         <p>
           If you have any feedback or questions about our clubs, our website or
@@ -91,7 +91,7 @@ const ContactForm = () => {
           <span>sunday :</span> 09.00 AM To 02.00 PM
         </p>
       </div>
-      <div data-aos="fade-up">
+      <div>
         <h2>Send Us a Message</h2>
         <p>Your email address will not be published *</p>
         <form onSubmit={sendMail}>

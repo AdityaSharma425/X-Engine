@@ -4,8 +4,8 @@ const HeroSection = () => {
   return (
     <div
       className={`${styles["hero-section"]} margin-sections main-background`}
-      data-aos="zoom-out-down">
-      <h1 className="main-heading">Classes</h1>
+      >
+      <h1 className="main-heading">Services</h1>
     </div>
   );
 };

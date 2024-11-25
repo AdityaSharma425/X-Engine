@@ -10,10 +10,10 @@ const OurTrainers = () => {
         <p className="paragraph">Our Trainers</p>
         <h2>We Trained You to Gain</h2>
       </div>
-      <div className={styles["trainers-boxes"]}>
+      {/* <div className={styles["trainers-boxes"]}>
         {ourTrainers.map((ele) => {
           return (
-            <div key={ele.id} data-aos="fade-right">
+            <div key={ele.id}>
               <img src={ele.image} alt="trainer" />
               <div className={styles.info}>
                 <div>
@@ -25,15 +25,15 @@ const OurTrainers = () => {
                 <h5>Specializations :</h5>
                 <p>Cross fit Expert, Nutrition & Rehab</p>
                 <Link
-                  href="https://www.linkedin.com/in/the-mustafa-khaled/"
+                  href="https://www.instagram.com/x__engine?igsh=bXB0b3Nlend1aGtj"
                   target="_blank">
-                  <i className="fa-brands fa-linkedin"></i>
+                  <i className="fa-brands fa-instagram"></i>
                 </Link>
               </div>
             </div>
           );
         })}
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -13,11 +13,11 @@ const AllOurTrainers = () => {
       <div className={styles.classes}>
         {allOurTrainersData.map((ele) => {
           return (
-            <div key={ele.id} data-aos="fade-right">
+            <div key={ele.id}>
               <img src={ele.image} alt="" />
               <h3>{ele.title}</h3>
-              <p>containing Lorem Ipsum passagesand more recently with </p>
-              <Link to={ele.ti}>Read More</Link>
+              <p>{} </p>
+              <Link to={ele.to}>Read More</Link>
             </div>
           );
         })}

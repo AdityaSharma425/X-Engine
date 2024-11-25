@@ -33,7 +33,7 @@ const Header = () => {
           })}
 
           <li>
-            <button onClick={() => navigate("/classes")}>Book Class</button>
+            <button>Book Class</button>
           </li>
         </ul>
         <div className={styles.menu} onClick={() => menuHandler()}>

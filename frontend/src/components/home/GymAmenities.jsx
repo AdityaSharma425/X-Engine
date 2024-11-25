@@ -1,7 +1,7 @@
 import { gymAmenitiesData } from "../../data/data";
 
 import styles from "./home.module.css";
-import video from "../../assets/Xvid.mp4";
+import video from "../../assets/Xvid1.mp4";
 
 const GymAmenities = () => {
   return (

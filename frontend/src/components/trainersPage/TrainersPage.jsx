@@ -7,7 +7,7 @@ const TrainersPage = () => {
   return (
     <div>
       <HeroSection />
-      <OurTrainers />
+      {/* <OurTrainers /> */}
       <Routines />
       <CtaSection />
     </div>

@@ -1,5 +1,4 @@
 import styles from "./footer.module.css";
-import logoIcon from "../../assets/Xlogo.png";
 import { useNavigate } from "react-router";
 
 const Footer = () => {
@@ -11,9 +10,9 @@ const Footer = () => {
         <h2>
           Follow me on
           <a
-            href="https://www.linkedin.com/in/the-mustafa-khaled/"
+            href="https://www.instagram.com/x__engine?igsh=bXB0b3Nlend1aGtj"
             target="_blank">
-            Linked In
+            Instagram
           </a>
         </h2>
       </div>
@@ -25,8 +24,7 @@ const Footer = () => {
             <h3>X-Engine</h3>
           </div>
           <p>
-            It is a long established fact that a reader will be distracted by
-            the readable.
+          Where Precision Meets Performance.
           </p>
           <div className={styles.info}>
             <span>Call :</span>
@@ -40,8 +38,7 @@ const Footer = () => {
             <li>Utility Pages</li>
             {/* <li onClick={() => navigate("/calculator")}>BMI Calculator</li> */}
             <li onClick={() => navigate("/schedule")}>Schedule</li>
-            <li>Password Protected</li>
-            <li>Licenses</li>
+            
             <li onClick={() => navigate("/contact")}>Contact</li>
           </ul>
         </div>
@@ -54,9 +51,9 @@ const Footer = () => {
             
             <br></br>
             <a
-              href="https://www.linkedin.com/in/the-mustafa-khaled/"
+              href="https://www.instagram.com/x__engine?igsh=bXB0b3Nlend1aGtj"
               target="_blank">
-              <i className="fa-brands fa-linkedin"></i>
+              <i className="fa-brands fa-instagram"></i>
             </a>
             {/* <a href="https://github.com/mustafa-khaled" target="_blank">
               <i className="fa-brands fa-github"></i>

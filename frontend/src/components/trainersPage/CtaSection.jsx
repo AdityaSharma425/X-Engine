@@ -13,7 +13,7 @@ const CtaSection = () => {
   return (
     <div className={`${styles["cta-section"]} `}>
       <div className={"container"}>
-        <img src={photo} alt="" data-aos="fade-up" />
+        {/* <img src={photo} alt=""/> */}
         <div className={styles.buttons}>
           <button onClick={() => navHandler()}>Book A class </button>
           <button onClick={() => navHandler()}>More Classes</button>

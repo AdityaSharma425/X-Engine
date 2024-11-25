@@ -30,7 +30,7 @@ const Trainers = () => {
                 <h5>Specialisations :</h5>
                 <p>{el.title}</p>
                 <Link to={el.to}>
-                  <i className="fa-brands fa-linkedin"></i>
+                  <i className="fa-brands fa-instagram"></i>
                 </Link>
               </div>
             </div>

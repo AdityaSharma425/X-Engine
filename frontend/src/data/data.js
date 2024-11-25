@@ -13,31 +13,17 @@ import trainer1 from "../assets/XVis.png";
 import story from "../assets/about5.png";
 
 // allOurTrainersData Images
-import ourTrainer1 from "../assets/home4.png";
-import ourTrainer2 from "../assets/home2.png";
-import ourTrainer3 from "../assets/home3.png";
-import ourTrainer4 from "../assets/classes2.png";
-import ourTrainer5 from "../assets/classes3.png";
-import ourTrainer6 from "../assets/classes4.png";
+import ourTrainer1 from "../assets/Xcross.jpg";
+import ourTrainer2 from "../assets/Xwl.jpg";
+import ourTrainer3 from "../assets/Xcardio.jpg";
+import ourTrainer4 from "../assets/Xyoga.jpg";
+import ourTrainer5 from "../assets/Xcali.jpg";
+import ourTrainer6 from "../assets/Xnutri.jpg";
 
-import ourTrainers1 from "../assets/tr1.png";
 
 
 import blogArticle1 from "../assets/Xb12.jpg";
-import blogArticle2 from "../assets/blog3.png";
-import blogArticle3 from "../assets/blog4.png";
-import blogArticle4 from "../assets/blog5.png";
-import blogArticle5 from "../assets/blog6.png";
-import blogArticle6 from "../assets/blog7.png";
-
-// Small Images
 import thumbnail1 from "../assets/Xb12.jpg";
-import thumbnail2 from "../assets/blog9.png";
-import thumbnail3 from "../assets/blog10.png";
-import thumbnail4 from "../assets/blog11.png";
-import thumbnail5 from "../assets/blog12.png";
-import thumbnail6 from "../assets/blog13.png";
-
 export const headerLinksData = [
   {
     id: 1,
@@ -51,7 +37,7 @@ export const headerLinksData = [
   },
   {
     id: 3,
-    title: "Classes",
+    title: "Services",
     to: "/classes",
   },
   {
@@ -140,7 +126,7 @@ export const trainersData = [
     name: "Rahul Sharma",
     title: "CrossFit Trainer",
     image: trainer1,
-    to: "https://www.linkedin.com/in/the-mustafa-khaled/",
+    to: "https://www.instagram.com/x__engine?igsh=bXB0b3Nlend1aGtj",
   },
 
 ];
@@ -224,16 +210,19 @@ export const gymStoryData = [
   {
     id: 2,
     title: "Story",
+    description: `Founded by Rahul Sharma, X Engine blends his journey as an engineer with his passion for CrossFit. Rahul’s transformation from a desk-bound professional to a fitness enthusiast inspired him to create a platform where precision and discipline meet the art of training. X Engine is built to empower individuals with scientifically crafted workouts and personalized health plans, making fitness accessible and results-driven for everyone.`,
     image: story,
   },
   {
     id: 3,
     title: "Our Mission",
+    description: `At X Engine, our mission is to revolutionize fitness by combining expert guidance and personalized plans to help individuals achieve their health goals. Driven by Rahul Sharma's passion for CrossFit and precision as an engineer, we aim to inspire sustainable, life-changing transformations for all.`,
   },
 
   {
     id: 4,
     title: "Our Value",
+    description: `We believe in discipline, dedication, and innovation. X Engine is built on the values of empowerment, personalized care, and a results-driven approach, ensuring every individual experiences growth, strength, and confidence in their fitness journey.`,
   },
 ];
 
@@ -242,24 +231,27 @@ export const valuesBoxes = [
     id: 1,
     icon: "fa-regular fa-newspaper",
     title: "Certified trainer",
+    description: "Certified CrossFit trainer and nutritionist",
   },
   {
     id: 2,
     icon: "fa-solid fa-apple-whole",
     title: "Nutrition & diet",
+    description: "Expert in nutrition and diet planning",
   },
 
   {
     id: 3,
     icon: "fa-solid fa-person",
-    title: "Years of experience",
+    title: "7 Years of experience",
+    description: "Over 7 years of experience in fitness training",
   },
 ];
 
 export const valuesNumbers = [
   {
     id: 1,
-    number: "10+",
+    number: "7+",
     description: "Year of Experience",
   },
 
@@ -268,16 +260,9 @@ export const valuesNumbers = [
     number: "500+",
     description: "Happy Clients",
   },
-
   {
     id: 3,
-    number: "50+",
-    description: "Expert Trainers",
-  },
-
-  {
-    id: 4,
-    number: "15k",
+    number: "10k",
     description: "Instagram followers",
   },
 ];
@@ -285,44 +270,63 @@ export const valuesNumbers = [
 export const allOurTrainersData = [
   {
     id: 1,
-    title: "Pilates Training",
+    title: "CrossFit Workout",
     image: ourTrainer1,
-    to: "/yogaClass",
+    to: "/CrossFit",
   },
 
   {
     id: 2,
-    title: "CrossFit",
+    title: "Weight Training",
     image: ourTrainer2,
-    to: "/",
+    to: "/WeightTraining",
   },
 
   {
     id: 3,
-    title: "Aerobic",
+    title: "Cardio & Strength",
     image: ourTrainer3,
-    to: "/",
+    to: "/Cardio",
   },
 
   {
     id: 4,
-    title: "Yoga As Therapy",
+    title: "Yoga",
     image: ourTrainer4,
-    to: "/",
+    to: "/yogaClass",
+    description: `Yoga with X Engine: Find Your Balance and Strength
+
+In today’s fast-paced world, fitness often focuses on physical endurance and strength, but true health requires balance. At X Engine, we believe in integrating the transformative practice of yoga into your fitness journey to create harmony between the body and mind.
+
+Why Yoga Matters
+Yoga is more than just stretching; it’s a practice that connects breath, movement, and mindfulness. Regular yoga practice improves flexibility, enhances muscle tone, and fosters mental clarity. It’s the perfect way to complement CrossFit or any intense workout routine, ensuring your body recovers effectively and remains agile.
+
+What Makes X Engine Yoga Different?
+At X Engine, our yoga sessions are designed with precision and care, tailored to all fitness levels. Whether you're new to yoga or a seasoned practitioner, our approach ensures you benefit from personalized attention. Our focus on proper technique and alignment helps you achieve your goals safely and effectively.
+
+Benefits of Yoga at X Engine
+Improved Recovery: Reduce muscle soreness and prevent injuries with targeted yoga stretches.
+Enhanced Flexibility: Improve your range of motion to perform better in workouts.
+Mental Clarity: Incorporate mindfulness techniques to reduce stress and boost focus.
+Holistic Wellness: Build a stronger connection between your physical and emotional health.
+How to Get Started
+Becoming a part of the X Engine yoga experience is easy. Sign up for our yoga programs today and explore how this ancient practice can transform your fitness journey. Whether you’re looking to unwind, recover, or build a stronger foundation for your workouts, X Engine’s yoga sessions are here to guide you every step of the way.
+
+Start your yoga journey with X Engine and discover the power of balance, strength, and mindfulness.`,
   },
 
   {
     id: 5,
-    title: "Boxing",
+    title: "Calisthenics",
     image: ourTrainer5,
-    to: "/",
+    to: "/Calisthenics",
   },
 
   {
     id: 6,
-    title: "Energy Dance",
+    title: "Nutrition & Diet",
     image: ourTrainer6,
-    to: "/",
+    to: "/Nutrition",
   },
 ];
 
